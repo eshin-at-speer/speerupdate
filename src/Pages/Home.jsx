@@ -70,10 +70,18 @@ const Maxcontainer = styled.div`
 
 const Home = () => {
   const [chosenEmoji, setChosenEmoji] = useState(null);
-
+  const [update, setupdate] = useState([])
+  const [changeupdate, setchangeupdate] = useState(null)
   const onEmojiClick = (event, emojiObject) => {
     setChosenEmoji(emojiObject);
   };
+  const handlechange = (e)=>{
+    e.preventDefault()
+    setupdate([...update, changeupdate ])
+  }
+  const handleupdatechange = (e)=>{
+    setchangeupdate(e.target.value)
+  }
 
   return (
     <Wrapper>
@@ -89,14 +97,28 @@ const Home = () => {
         </form>
         <form>
           <h3>Update:</h3>
-          <input type="text" className="update" />
-          <button className="addupdate">add</button>
+          <input onChange={handleupdatechange} type="text" className="update" />
+          <button onClick={handlechange} className="addupdate">
+            add
+          </button>
         </form>
         <form>
           <h3>Blockers:</h3>
           <input type="text" className="update" />
           <button className="addupdate">add</button>
         </form>
+        <div className="data">
+          Mood:{chosenEmoji && chosenEmoji.emoji}
+          <br />
+          Update:{update.map((item,index)=>{
+            return (
+              <>
+                <span key={index}>{item}</span>
+                <br />
+              </>
+            );
+          })}
+        </div>
       </Maxcontainer>
     </Wrapper>
   );
