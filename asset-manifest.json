@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/speerupdate/static/js/main.0d21401e.chunk.js",
-    "main.js.map": "/speerupdate/static/js/main.0d21401e.chunk.js.map",
+    "main.js": "/speerupdate/static/js/main.8eed1cbc.chunk.js",
+    "main.js.map": "/speerupdate/static/js/main.8eed1cbc.chunk.js.map",
     "runtime-main.js": "/speerupdate/static/js/runtime-main.5030fb66.js",
     "runtime-main.js.map": "/speerupdate/static/js/runtime-main.5030fb66.js.map",
-    "static/js/2.368d229c.chunk.js": "/speerupdate/static/js/2.368d229c.chunk.js",
-    "static/js/2.368d229c.chunk.js.map": "/speerupdate/static/js/2.368d229c.chunk.js.map",
+    "static/js/2.4883a765.chunk.js": "/speerupdate/static/js/2.4883a765.chunk.js",
+    "static/js/2.4883a765.chunk.js.map": "/speerupdate/static/js/2.4883a765.chunk.js.map",
     "index.html": "/speerupdate/index.html",
-    "static/js/2.368d229c.chunk.js.LICENSE.txt": "/speerupdate/static/js/2.368d229c.chunk.js.LICENSE.txt"
+    "static/js/2.4883a765.chunk.js.LICENSE.txt": "/speerupdate/static/js/2.4883a765.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5030fb66.js",
-    "static/js/2.368d229c.chunk.js",
-    "static/js/main.0d21401e.chunk.js"
+    "static/js/2.4883a765.chunk.js",
+    "static/js/main.8eed1cbc.chunk.js"
   ]
 }
